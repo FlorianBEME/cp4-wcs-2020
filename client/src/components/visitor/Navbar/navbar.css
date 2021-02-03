@@ -1,0 +1,38 @@
+.container-nav-bar {
+  padding: var(--spacing-large);
+  background-color: var(--main-color);
+}
+
+.title-navbar {
+  display: none;
+}
+
+.container-menu {
+  justify-content: space-around;
+  width: 100%;
+}
+
+.menu-item a {
+  text-decoration: none;
+  font-family: var(--main-font);
+  color: var(--light);
+}
+
+.menu-item a:focus {
+  border-bottom: 2px solid var(--light);
+}
+
+@media screen and (min-width: 1024px) {
+  .title-navbar {
+    display: flex;
+    color: var(--light);
+    text-align: left;
+    font-family: var(--main-font);
+    font-size:var(--ft-size-title);
+  }
+  .container-menu {
+    width: 50%;
+    font-size:1.2em;
+    
+  }
+}
