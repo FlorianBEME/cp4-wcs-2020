@@ -1,7 +1,4 @@
-# WCS HACKATHON COMPARATEUR AGRICOLE
-
-## Group Project by:
-Lola Raine, Théo Atlani, Florian Bêmes, Flo Barth
+# WCS CHECKPOINT 4 
 
 ### Dependencies
     "concurrently": "^5.3.0"
