@@ -1,4 +1,5 @@
 # WCS CHECKPOINT 4 
+    Modèle de la BDD : https://dbdiagram.io/d/601a6b6b80d742080a38fae3
 
 ### Dependencies
     "concurrently": "^5.3.0"
