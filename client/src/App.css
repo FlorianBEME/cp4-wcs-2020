@@ -2,7 +2,7 @@
 
 :root {
   --main-color: #26292e;
-  --second-color: #20313a;
+  --second-color: #355261;
   --third-color: #684131;
   --fourth-color: #855d4e;
   --fifth-color: #df9468;
@@ -19,3 +19,6 @@
   
 }
 
+body{
+  background-color: var(--main-color);
+}

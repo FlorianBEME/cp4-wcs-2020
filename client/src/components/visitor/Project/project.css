@@ -1,0 +1,39 @@
+.project-container {
+  border-top-right-radius: 2000px 75px;
+  background-color: var(--second-color);
+  width: 100%;
+}
+
+.project-container h2 {
+  font-family: var(--main-font);
+  color: var(--light);
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.line {
+  position: relative;
+  margin: auto;
+  width: 60vw;
+  height: 2px;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+.container-card {
+}
+
+@media screen and (min-width: 768px) {
+  .line {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .line {
+    width: 23vw;
+  }
+}

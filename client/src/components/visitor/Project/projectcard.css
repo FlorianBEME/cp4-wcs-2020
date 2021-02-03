@@ -1,0 +1,70 @@
+.card-project {
+  width: 280px;
+  border: 1px solid var(--main-color);
+  margin-top: 4em;
+  padding: 2em;
+  border-radius: 0 100px 0 100px;
+  color: white;
+  margin-bottom: 50px;
+  background-color: rgba(0,0,0,0.5)
+}
+
+.card-project img {
+  border-radius: 50%;
+  width: 200px;
+  box-shadow: 0 0 1px var(--sixth-color);
+
+}
+
+.card-project h3 {
+  font-family: var(--main-font);
+  font-weight: 100;
+  color: var(--light);
+}
+
+#button-6 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: var(--main-color);
+  border:1px solid var(--light);
+  padding: 10px;
+  border-radius: 0 16% 0 16%;
+}
+
+#button-6 a {
+  position: relative;
+  transition: all 0.45s ease-Out;
+}
+
+#spin {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  left: 70px;
+  top: 20px;
+  transform: rotate(0deg);
+  background: none;
+  position: absolute;
+  transition: all 0.5s ease-Out;
+}
+
+#button-6:hover #spin {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  left: -70px;
+  top: -70px;
+  background: var(--light);
+  transform: rotate(80deg);
+}
+
+#button-6:hover a {
+  color: #2d3142;
+}
+
+.date{
+    color: (--light);
+    opacity: 0.5;
+    font-size:1em;
+}

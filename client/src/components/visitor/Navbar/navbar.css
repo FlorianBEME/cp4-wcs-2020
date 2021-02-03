@@ -1,8 +1,9 @@
 .container-nav-bar {
   padding: var(--spacing-large);
-  background-color: var(--seventh-color);
+  background-color: var(--second-color);
   position: fixed;
   width: 100%;
+  z-index: 50;
 }
 
 .title-navbar {
