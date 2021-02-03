@@ -58,10 +58,8 @@ CREATE TABLE `user` (
   `user_password` varchar(255) NOT NULL
 );
 
-
--- ALTER TABLE `meeting` ADD FOREIGN KEY (`user_id`) REFERENCES `user` (`id`);
-
+INSERT INTO user(mail_user,picture_user,user_password) VALUES ('florianbme@gmail.com','/uploads/logo_bleu.png','$2b$10$KIkqeepzuoVcaGhCDlvXveZu3yIs37PL0x/LtvhLKCBfXVKHNeBJq');
 
 
 
-INSERT INTO user(,mail_user,picture_user,user_password) VALUES ('florianbme@seysame.com','/uploads/logo_bleu.png','$2b$10$KIkqeepzuoVcaGhCDlvXveZu3yIs37PL0x/LtvhLKCBfXVKHNeBJq');
+
