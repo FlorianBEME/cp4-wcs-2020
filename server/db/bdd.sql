@@ -24,7 +24,7 @@ CREATE TABLE `project` (
   `id` int PRIMARY KEY NOT NULL AUTO_INCREMENT,
   `project_name` varchar(250) NOT NULL,
   `project_date` varchar(250) NOT NULL,
-  `project_description` varchar(250) NOT NULL,
+  `project_description` text,
   `project_url` varchar(250) NOT NULL,
   `project_img` varchar(250) NOT NULL,
   `isActive` boolean NOT NULL
