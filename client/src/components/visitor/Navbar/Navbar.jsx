@@ -1,14 +1,7 @@
 import React from "react";
 import "./navbar.css";
 
-
-
 function Navbar() {
-    const active = () =>{
-        document.querySelectorAll('menu-item').click(function (){
-            
-        })
-    } 
   return (
     <nav className="container-nav-bar">
       <div className="d-flex justify-content-between align-items-center">

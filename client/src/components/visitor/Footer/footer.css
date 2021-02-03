@@ -1,6 +1,5 @@
 .footer-container {
-  position: absolute;
-  bottom: 0;
+  position: relative;
   width: 100%;
   border-top-left-radius: 250px 75px;
   border-top-right-radius: 250px 75px;
