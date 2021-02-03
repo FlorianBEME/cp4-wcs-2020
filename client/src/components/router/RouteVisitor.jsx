@@ -1,6 +1,8 @@
 import React, { Fragment, useEffect } from "react";
-import "../App.css";
+import "../../App.css";
 import { Route } from "react-router-dom";
+import Navbar from "../visitor/Navbar/Navbar"
+import "../../App.css"
 
 
 const RouteVisitor = ({ component: Component, ...rest }) => {
@@ -14,9 +16,9 @@ const RouteVisitor = ({ component: Component, ...rest }) => {
       {...rest}
       render={(props) => (
         <Fragment>
-          {/* <Navbar />
+          <Navbar />
           <Component {...props} />
-          <Footer /> */}
+          {/* <Footer /> */}
         </Fragment>
       )}
     />
