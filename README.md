@@ -1,7 +1,7 @@
 # WCS CHECKPOINT 4 
 
 ### Dependencies
-    "concurrently": "^5.3.0"
+   
 
 ### Instructions 
     Run "npm run dev" from the root of the project to run both server and client sides.
