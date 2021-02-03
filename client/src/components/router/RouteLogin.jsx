@@ -3,7 +3,6 @@ import "./dashboard/assets/scss/dashboard.css";
 import { Switch, Route, Redirect } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
-import Logo from "../components/Navbar/Logo";
 
 const RouteLogin = ({ component: Component, isAuth, ...rest }) => {
   return (
@@ -17,7 +16,6 @@ const RouteLogin = ({ component: Component, isAuth, ...rest }) => {
               return (
                 <Fragment>
                   <Navbar />
-                  <Logo />
                   <Component {...rest} {...props} />
                   <Footer />
                 </Fragment>
