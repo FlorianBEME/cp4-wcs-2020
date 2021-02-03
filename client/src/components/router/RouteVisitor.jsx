@@ -2,6 +2,7 @@ import React, { Fragment, useEffect } from "react";
 import "../../App.css";
 import { Route } from "react-router-dom";
 import Navbar from "../visitor/Navbar/Navbar"
+import Footer  from "../visitor/Footer/Footer"
 import "../../App.css"
 
 
@@ -18,7 +19,7 @@ const RouteVisitor = ({ component: Component, ...rest }) => {
         <Fragment>
           <Navbar />
           <Component {...props} />
-          {/* <Footer /> */}
+          <Footer />
         </Fragment>
       )}
     />
