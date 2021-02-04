@@ -46,7 +46,7 @@ function Project() {
   const handleDelete = (id) => {
     confirmAlert({
       title: "Confirmation de suppression",
-      message: "Êtes-vous sur de vouloir supprimer ce commentaire ?",
+      message: "Êtes-vous sur de vouloir supprimer ce projet ?",
       buttons: [
         {
           label: "Oui",
