@@ -1,0 +1,78 @@
+.about h2 {
+  font-family: var(--main-font);
+  color: var(--light-text);
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 2em;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+.about:target {
+  padding-top: 2em; 
+  margin-top: -2em; 
+}
+
+.about-container-main h3 {
+  text-align: center;
+  width: 100%;
+  font-family: var(--second-font);
+  color: var(--fifth-color);
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.about-container-main p {
+  width: 100%;
+  font-family: var(--second-font);
+  color: var(--light-text);
+  font-size: 1em;
+}
+
+.about-container-main {
+  margin-top: 2.5em;
+}
+
+.about-card-conainer {
+  width: 60%;
+  text-align: justify;
+  margin: auto!important;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.container-card-about {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-card-conainer {
+    width: 80vw;
+    margin: auto;
+    flex-direction: row;
+  }
+
+  .container-card-about {
+    width: 450px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+  }
+  .about:target {
+    padding-top: 8em; 
+    margin-top: -8em; 
+  }
+}

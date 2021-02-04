@@ -67,7 +67,6 @@ router.post("/", (req, res) => {
                   }
                 );
 
-                req.session.user = result;
 
                 res.json({ auth: true, token: token, result: result });
               } else {

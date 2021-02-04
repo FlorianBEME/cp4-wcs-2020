@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&family=Titillium+Web:ital,wght@0,400;1,300&display=swap');
 
 :root {
-  --main-color: #191a1c;
-  --second-color: #19272e;
+  --main-color: #26292e;
+  --second-color: #355261;
   --third-color: #684131;
   --fourth-color: #855d4e;
   --fifth-color: #df9468;
   --sixth-color:#fec89b;
+  --seventh-color:#2e3a41;
   --light: #FFEEE0;
+  --light-text:#fdf7f2;
   --spacing: 4px ;
   --spacing-medium: calc(var(--spacing) * 2);
   --spacing-large: calc(var(--spacing) * 4);
   --main-font: 'Josefin Sans', sans-serif;
   --second-font: 'Titillium Web', sans-serif;
-  
+  --ft-size-title: 2em; 
 }
 
+body{
+  background-color: var(--main-color)!important;
+  font-size:initial!important;
+}
