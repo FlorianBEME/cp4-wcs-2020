@@ -1,7 +1,7 @@
 import React from "react";
-// import "./dashboard/assets/scss/dashboard.css";
+import "../../components/admin/dashboard/assets/scss/dashboard.css";
 import { Switch, Route, Redirect } from "react-router-dom";
-// import indexRoutes from "./dashboard/routes/index";
+import indexRoutes from "../admin/dashboard/routes/index";
 
 const RouteAdmin = ({ component: Component, isAuth, ...rest }) => {
   return (

@@ -70,64 +70,21 @@ const Fulllayout = (props) => {
 
       <div className="page-wrapper d-block">
         <div className="page-content container-fluid">
-          {userInfo.isAccepted_user === 0 ? (
-            <div className="d-flex justify-content-center flex-column">
-              <div className="text-new-vdi">
-                Votre compte est en cours de validation. Pour toutes questions,
-                veuillez vous rendre sur la page{" "}
-                <a href="/about" className="text-warning" alt="Page A propos">
-                  À PROPOS
-                </a>
-                .
-              </div>
-              <div
-                className="d-flex justify-content-center flex-column align-items-center"
-                onClick={logOut}
-              >
-                <button class="button button--ujarak button--border-thin button--text-thick">
-                  Se deconnecter
-                </button>
-              </div>
-            </div>
-          ) : userInfo.role === "admin" ? (
-            <Switch>
-              {AdminRoutes.map((prop, key) => {
-                if (prop.redirect) {
-                  return (
-                    <Redirect from={prop.path} to={prop.pathTo} key={key} />
-                  );
-                } else {
-                  return (
-                    <Route
-                      path={prop.path}
-                      component={prop.component}
-                      key={key}
-                    />
-                  );
-                }
-              })}
-            </Switch>
-          ) : (
-            VDIRoutes.map((prop, key) => {
+          <Switch>
+            {AdminRoutes.map((prop, key) => {
               if (prop.redirect) {
-                return (
-                  <Switch>
-                    <Redirect from={prop.path} to={prop.pathTo} key={key} />
-                  </Switch>
-                );
+                return <Redirect from={prop.path} to={prop.pathTo} key={key} />;
               } else {
                 return (
-                  <Switch>
-                    <Route
-                      path={prop.path}
-                      component={prop.component}
-                      key={key}
-                    />
-                  </Switch>
+                  <Route
+                    path={prop.path}
+                    component={prop.component}
+                    key={key}
+                  />
                 );
               }
-            })
-          )}
+            })}
+          </Switch>
         </div>
       </div>
     </div>
