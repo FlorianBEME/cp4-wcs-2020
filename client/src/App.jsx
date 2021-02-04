@@ -1,4 +1,3 @@
-import "./App.css";
 import { Switch, BrowserRouter as Router } from "react-router-dom";
 import RouteVisitor from "./components/router/RouteVisitor";
 import RouteAdmin from "./components/router/RouteAdmin";

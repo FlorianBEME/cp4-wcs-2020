@@ -1,6 +1,6 @@
 .accueil-container {
   height: 100vh;
-  padding-top: 56px;
+  padding-top: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +74,7 @@
   }
 
   .accueil-container img {
-    width: 20%;
+    width: 200px;
     
   }
 

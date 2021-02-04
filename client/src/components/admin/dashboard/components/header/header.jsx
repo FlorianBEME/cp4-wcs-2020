@@ -12,7 +12,6 @@ import {
 
 import "./header.css";
 
-import logolighttext from "../../assets/images/Logo.png";
 
 /*--------------------------------------------------------------------------------*/
 /* Import images which are need for the HEADER                                    */
@@ -37,11 +36,6 @@ const Header = () => {
           <NavbarBrand href="/">
             <b className="logo-icon"></b>
             <span className="logo-text">
-              <img
-                src={logolighttext}
-                className="light-logo logo-size-text"
-                alt="homepage"
-              />
             </span>
           </NavbarBrand>
           {/*--------------------------------------------------------------------------------*/}
