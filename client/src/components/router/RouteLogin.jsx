@@ -1,8 +1,6 @@
 import React, { Fragment } from "react";
-import "./dashboard/assets/scss/dashboard.css";
+import "../admin/dashboard/assets/scss/dashboard.css";
 import { Switch, Route, Redirect } from "react-router-dom";
-import Navbar from "../components/Navbar/Navbar";
-import Footer from "../components/Footer/Footer";
 
 const RouteLogin = ({ component: Component, isAuth, ...rest }) => {
   return (
@@ -15,9 +13,7 @@ const RouteLogin = ({ component: Component, isAuth, ...rest }) => {
             if (isAuth === null) {
               return (
                 <Fragment>
-                  <Navbar />
                   <Component {...rest} {...props} />
-                  <Footer />
                 </Fragment>
               );
             } else {

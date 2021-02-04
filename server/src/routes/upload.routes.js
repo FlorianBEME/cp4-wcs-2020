@@ -1,6 +1,6 @@
 const router = require("express").Router();
 const fileUpload = require("express-fileupload");
-const front = `../../client`
+const front = `${__dirname}/../../../client`
 const { v4: uuidv4 } = require('uuid');
 router.use(fileUpload());
 

@@ -1,0 +1,17 @@
+.form form textarea {
+  width: 40vw;
+}
+
+.input-com {
+  width: 40vw !important;
+}
+
+.sub-container-form-com {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-container-form-com label {
+  margin-top: 8px;
+}
