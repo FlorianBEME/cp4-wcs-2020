@@ -15,8 +15,7 @@
   --spacing-large: calc(var(--spacing) * 4);
   --main-font: 'Josefin Sans', sans-serif;
   --second-font: 'Titillium Web', sans-serif;
-  --ft-size-title: 2em;
-  
+  --ft-size-title: 2em; 
 }
 
 body{

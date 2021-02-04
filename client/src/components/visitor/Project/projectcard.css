@@ -1,5 +1,5 @@
 .card-project {
-  width: 280px;
+  width: 80vw;
   border: 1px solid var(--main-color);
   margin-top: 4em;
   padding: 2em;
@@ -15,7 +15,6 @@
   border-radius: 50%;
   width: 200px;
   box-shadow: 0 0 1px var(--sixth-color);
-
 }
 
 .card-project h3 {
@@ -36,6 +35,7 @@
 
 #button-6 a {
   position: relative;
+  color:var(--light-text);
   transition: all 0.45s ease-Out;
 }
 
@@ -69,4 +69,10 @@
     color: (--light);
     opacity: 0.5;
     font-size:1em;
+}
+
+@media screen and (min-width:768px){
+  .card-project {
+    width: 400px;
+  }
 }

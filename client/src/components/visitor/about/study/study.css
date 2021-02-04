@@ -1,0 +1,33 @@
+.card-study {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-study img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.card-study h4 {
+  font-size: 1.5em;
+  font-family: var(--main-font);
+  color: var(--light);
+  margin: 0;
+}
+
+.card-study p {
+  font-size: 1em;
+  font-family: var(--second-font);
+  color: var(--light);
+}
+
+.card-study h5 {
+  font-size: 1em;
+  font-family: var(--second-font);
+  color: var(--light);
+}
+
+@media screen and (min-width: 768px) {
+}

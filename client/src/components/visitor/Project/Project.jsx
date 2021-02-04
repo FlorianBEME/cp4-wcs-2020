@@ -4,6 +4,7 @@ import "./project.css";
 import axios from "axios";
 import { FETCH } from "../../../Fetch";
 
+
 function Project() {
   const [dataProject, setDataProject] = useState();
   const [isLoading, setLoading] = useState(false);
@@ -20,17 +21,16 @@ function Project() {
       });
   }, []);
 
-  console.log(dataProject);
-
   return (
-    <div className="project-container" id="pro">
+    <div className="project-container" id="pro" >
       <h2>PROJECT</h2>
       <div className="line"></div>
-      <div className="container-card d-flex justify-content-center">
+      <div className="container-card d-flex justify-content-center pb-5">
         {isLoading ? (
           dataProject
             .filter((res) => res.isActive === 1)
             .map((res) => (
+              
               <ProjectCard
               key={res.id}
                 img={res.project_img}

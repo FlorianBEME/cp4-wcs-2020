@@ -3,10 +3,12 @@
 /*--------------------------------------------------------------------------------*/
 import FirstDashboard from "../views/starter/starter.jsx";
 import Project from "../views/ui-components/admin-component/Project.jsx";
+import Study from "../views/ui-components/admin-component/Study.jsx";
+import Skills from "../views/ui-components/admin-component/Skills.jsx";
+
 /*--------------------------------------------------------------------------------*/
 /*                           Ui-components Dropdown                               */
 /*--------------------------------------------------------------------------------*/
-
 
 export var AdminRoutes = [
   {
@@ -20,6 +22,18 @@ export var AdminRoutes = [
     name: "Projet",
     icon: "mdi mdi-adjust",
     component: Project,
+  },
+  {
+    path: "/panel/study",
+    name: "Study",
+    icon: "mdi mdi-adjust",
+    component: Study,
+  },
+  {
+    path: "/panel/skills",
+    name: "Skills",
+    icon: "mdi mdi-adjust",
+    component: Skills,
   },
   {
     path: "/panel",

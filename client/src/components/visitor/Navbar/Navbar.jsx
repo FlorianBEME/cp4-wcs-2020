@@ -14,13 +14,7 @@ function Navbar() {
             <a href="#about">About</a>
           </div>
           <div className="menu-item">
-            <a href="#skill">Skills</a>
-          </div>
-          <div className="menu-item">
-            <a href="#study">Study</a>
-          </div>
-          <div className="menu-item">
-            <a href="#pro">Professional</a>
+            <a href="#contact">Contact</a>
           </div>
         </div>
       </div>
