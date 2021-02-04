@@ -23,8 +23,6 @@
   border-radius: 50%;
   background-color: var(--light);
 }
-.container-card {
-}
 
 @media screen and (min-width: 768px) {
   .line {
