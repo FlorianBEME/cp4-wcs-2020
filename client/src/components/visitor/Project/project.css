@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.container-card {
+  align-items: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
 .project-container h2 {
   font-family: var(--main-font);
   color: var(--light);

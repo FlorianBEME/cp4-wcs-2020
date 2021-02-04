@@ -5,17 +5,12 @@ import Super from "../../../assets/super.jpg";
 function ProjectCard(props) {
   return (
     <div className="card-project d-flex align-items-center flex-column">
-      <img src={Super} alt={props.alt} />
-      <h3 className="mt-3">{props.title}TITRE</h3>
+      <img src={props.img} alt={props.alt} />
+      <h3 className="mt-3">{props.title}</h3>
       <div>
-        <p className="date">{props.date}09/09/2020</p>
+        <p className="date">{props.date}</p>
         <p className="text-justify desc">
-          {props.desc}Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Mauris sed eros ullamcorper, elementum urna sit amet, porta justo.
-          Aliquam commodo scelerisque risus, eu vulputate ligula efficitur ac.
-          Ut sit amet dui pulvinar, blandit quam ac, imperdiet tortor. Nam
-          pulvinar maximus metus quis venenatis. Nullam et metus mi. Duis
-          dignissim{" "}
+          {props.desc}
         </p>
       </div>
       <div class="button" id="button-6">
